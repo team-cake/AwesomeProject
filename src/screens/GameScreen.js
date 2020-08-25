@@ -84,7 +84,7 @@ export default function GameScreen({ route, navigation }) {
 				Times I've been here: {count}
 			</Text>
 
-			<Button
+			<MyButton
 				title='Go to Home'
 				onPress={() => navigation.navigate('Home', { count: count + 1 })}
 			/>

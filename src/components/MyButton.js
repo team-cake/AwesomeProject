@@ -54,6 +54,7 @@ export default function MyButton({ title, onPress }) {
 				<Text
 					style={{
 						color: 'black',
+						textAlign: 'center',
 						fontSize: 18,
 						fontWeight: 'bold',
 					}}
