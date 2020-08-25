@@ -18,7 +18,7 @@ function GameTabs() {
 	)
 }
 
-export default function App() {
+function App() {
 	return (
 		<NavigationContainer>
 			<Stack.Navigator
@@ -41,3 +41,5 @@ export default function App() {
 		</NavigationContainer>
 	)
 }
+
+export default App

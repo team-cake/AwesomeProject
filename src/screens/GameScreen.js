@@ -1,4 +1,3 @@
-// src/screens/GameScreen.js
 import React, { useEffect, useState } from 'react'
 import { View, Text, Button } from 'react-native'
 import { DeviceMotion } from 'expo-sensors'
